@@ -1,0 +1,15 @@
+[package]
+name = "certificate-gen"
+version = "1.0.0"
+authors = []
+
+[addresses]
+MyModule="0xdd58e777e180b494cc552d0e7ab55419774992dcfd8680e748122ec7af18fa8d"
+[dev-addresses]
+
+[dependencies.AptosFramework]
+git = "https://github.com/aptos-labs/aptos-framework.git"
+rev = "mainnet"
+subdir = "aptos-framework"
+
+[dev-dependencies]
